@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D278CA3210DF11A00A30B77 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D278CA2210DF11A00A30B77 /* RoundedButton.swift */; };
+		0D278CA5210DF12B00A30B77 /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D278CA4210DF12B00A30B77 /* RectangleButton.swift */; };
+		0D3DDB1220AF21CD00BBCA69 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DDB1120AF21CD00BBCA69 /* PracticeViewController.swift */; };
+		0D3DDB1420AF221600BBCA69 /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DDB1320AF221600BBCA69 /* PracticeTableViewCell.swift */; };
+		0D6455A7210A474200BA35DD /* TestBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6455A6210A474200BA35DD /* TestBaseViewModel.swift */; };
+		0D6CB04720B1914600BD5E2A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CB04620B1914600BD5E2A /* UIColor+Extension.swift */; };
+		0D6CB04A20B1937C00BD5E2A /* LessonOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CB04920B1937C00BD5E2A /* LessonOptionViewController.swift */; };
+		0D6CB04D20B1943B00BD5E2A /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CB04C20B1943B00BD5E2A /* LessonView.swift */; };
+		0D6CB04F20B2009C00BD5E2A /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CB04E20B2009C00BD5E2A /* DataProvider.swift */; };
+		0DA34B7D20B0719F002C10B1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA34B7C20B0719F002C10B1 /* QuizViewController.swift */; };
+		0DA3FACD20AE108200F3932A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3FACC20AE108200F3932A /* RealmManager.swift */; };
+		0DA3FACF20AE110000F3932A /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3FACE20AE110000F3932A /* Lesson.swift */; };
+		0DA3FAD120AE115800F3932A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3FAD020AE115800F3932A /* Word.swift */; };
+		0DAD123C20D5121500F2715A /* TestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD123B20D5121500F2715A /* TestManager.swift */; };
+		0DD860FC20A073940030CA10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD860FB20A073940030CA10 /* MainViewController.swift */; };
+		0DD8610020A077D20030CA10 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD860FF20A077D20030CA10 /* LessonsViewController.swift */; };
+		0DD8610420A0A3560030CA10 /* LessonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8610320A0A3560030CA10 /* LessonsTableViewCell.swift */; };
+		0DDC2FBC2115FA07002F13D7 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FBB2115FA07002F13D7 /* Language.swift */; };
+		0DDC2FC12115FB92002F13D7 /* LanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FC02115FB92002F13D7 /* LanguagesViewController.swift */; };
+		0DDC2FC32116084E002F13D7 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FC22116084E002F13D7 /* LanguageView.swift */; };
+		0DDC2FC5211609E4002F13D7 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FC4211609E4002F13D7 /* LanguageTableViewCell.swift */; };
+		0DDC2FC821170620002F13D7 /* AddLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FC721170620002F13D7 /* AddLessonViewController.swift */; };
+		0DDC2FCB2117080D002F13D7 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FCA2117080D002F13D7 /* SwitchView.swift */; };
+		0DDC2FCD21172854002F13D7 /* LanguagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FCC21172854002F13D7 /* LanguagesViewModel.swift */; };
+		0DDC2FD121172EFF002F13D7 /* LessonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FD021172EFF002F13D7 /* LessonsViewModel.swift */; };
+		0DDC2FD321174AE1002F13D7 /* LessonOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FD221174AE1002F13D7 /* LessonOptionViewModel.swift */; };
+		0DDC2FD6211750EF002F13D7 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FD5211750EF002F13D7 /* MainFlowController.swift */; };
+		0DDC2FD821178F8E002F13D7 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2FD721178F8E002F13D7 /* PracticeViewModel.swift */; };
+		0DE195A720B1688C005C2966 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE195A620B1688C005C2966 /* TestViewController.swift */; };
+		0DE195AA20B17607005C2966 /* MutableCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE195A920B17607005C2966 /* MutableCollection+Extension.swift */; };
+		0DE195AD20B17B47005C2966 /* TestBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE195AC20B17B47005C2966 /* TestBaseViewController.swift */; };
 		0DF85F6F2045CAD90048A2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF85F6E2045CAD90048A2AE /* AppDelegate.swift */; };
-		0DF85F712045CAD90048A2AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF85F702045CAD90048A2AE /* ViewController.swift */; };
-		0DF85F742045CAD90048A2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF85F722045CAD90048A2AE /* Main.storyboard */; };
 		0DF85F772045CAD90048A2AE /* MyVocabulary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DF85F752045CAD90048A2AE /* MyVocabulary.xcdatamodeld */; };
 		0DF85F792045CAD90048A2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF85F782045CAD90048A2AE /* Assets.xcassets */; };
 		0DF85F7C2045CAD90048A2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF85F7A2045CAD90048A2AE /* LaunchScreen.storyboard */; };
 		0DF85F872045CAD90048A2AE /* MyVocabularyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF85F862045CAD90048A2AE /* MyVocabularyTests.swift */; };
 		0DF85F922045CAD90048A2AE /* MyVocabularyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF85F912045CAD90048A2AE /* MyVocabularyUITests.swift */; };
+		6C6778BC2F5552B71904A6BC /* Pods_MyVocabularyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684D0ADB171F1838160D2468 /* Pods_MyVocabularyTests.framework */; };
+		A1929A6EBC316F9B0A0802EF /* Pods_MyVocabularyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A3893F9D4C269010E3C410 /* Pods_MyVocabularyUITests.framework */; };
+		DAB423AFC914EB68B84D2854 /* Pods_MyVocabulary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA01D3EFF30CC0E6C01DD73B /* Pods_MyVocabulary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +67,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D278CA2210DF11A00A30B77 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0D278CA4210DF12B00A30B77 /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
+		0D3DDB1120AF21CD00BBCA69 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		0D3DDB1320AF221600BBCA69 /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
+		0D6455A6210A474200BA35DD /* TestBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseViewModel.swift; sourceTree = "<group>"; };
+		0D6CB04620B1914600BD5E2A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0D6CB04920B1937C00BD5E2A /* LessonOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOptionViewController.swift; sourceTree = "<group>"; };
+		0D6CB04C20B1943B00BD5E2A /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		0D6CB04E20B2009C00BD5E2A /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		0DA34B7C20B0719F002C10B1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		0DA3FACC20AE108200F3932A /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		0DA3FACE20AE110000F3932A /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		0DA3FAD020AE115800F3932A /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		0DA3FAD220AE19FF00F3932A /* MyVocabulary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyVocabulary.entitlements; sourceTree = "<group>"; };
+		0DAD123B20D5121500F2715A /* TestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestManager.swift; sourceTree = "<group>"; };
+		0DD860FB20A073940030CA10 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0DD860FF20A077D20030CA10 /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		0DD8610320A0A3560030CA10 /* LessonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsTableViewCell.swift; sourceTree = "<group>"; };
+		0DDC2FBB2115FA07002F13D7 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		0DDC2FC02115FB92002F13D7 /* LanguagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesViewController.swift; sourceTree = "<group>"; };
+		0DDC2FC22116084E002F13D7 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		0DDC2FC4211609E4002F13D7 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		0DDC2FC721170620002F13D7 /* AddLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLessonViewController.swift; sourceTree = "<group>"; };
+		0DDC2FCA2117080D002F13D7 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		0DDC2FCC21172854002F13D7 /* LanguagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesViewModel.swift; sourceTree = "<group>"; };
+		0DDC2FD021172EFF002F13D7 /* LessonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewModel.swift; sourceTree = "<group>"; };
+		0DDC2FD221174AE1002F13D7 /* LessonOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOptionViewModel.swift; sourceTree = "<group>"; };
+		0DDC2FD5211750EF002F13D7 /* MainFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		0DDC2FD721178F8E002F13D7 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		0DE195A620B1688C005C2966 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		0DE195A920B17607005C2966 /* MutableCollection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Extension.swift"; sourceTree = "<group>"; };
+		0DE195AC20B17B47005C2966 /* TestBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseViewController.swift; sourceTree = "<group>"; };
 		0DF85F6B2045CAD90048A2AE /* MyVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF85F6E2045CAD90048A2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DF85F702045CAD90048A2AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DF85F732045CAD90048A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DF85F762045CAD90048A2AE /* MyVocabulary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVocabulary.xcdatamodel; sourceTree = "<group>"; };
 		0DF85F782045CAD90048A2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DF85F7B2045CAD90048A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +111,15 @@
 		0DF85F8D2045CAD90048A2AE /* MyVocabularyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVocabularyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF85F912045CAD90048A2AE /* MyVocabularyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocabularyUITests.swift; sourceTree = "<group>"; };
 		0DF85F932045CAD90048A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E096CD8A9B67A78890F1EF /* Pods-MyVocabulary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabulary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary.release.xcconfig"; sourceTree = "<group>"; };
+		5D9F23E39E31CB4BB1C7253E /* Pods-MyVocabularyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabularyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabularyTests/Pods-MyVocabularyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		684D0ADB171F1838160D2468 /* Pods_MyVocabularyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVocabularyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8034564AED675BC18D519E /* Pods-MyVocabulary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabulary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary.debug.xcconfig"; sourceTree = "<group>"; };
+		95A3893F9D4C269010E3C410 /* Pods_MyVocabularyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVocabularyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9A9A19BD7AA2C0C3299695 /* Pods-MyVocabularyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabularyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabularyUITests/Pods-MyVocabularyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD923A656BF944E9A2314FE3 /* Pods-MyVocabularyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabularyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabularyUITests/Pods-MyVocabularyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA01D3EFF30CC0E6C01DD73B /* Pods_MyVocabulary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVocabulary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DB423AF289820361985A86 /* Pods-MyVocabularyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabularyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabularyTests/Pods-MyVocabularyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB423AFC914EB68B84D2854 /* Pods_MyVocabulary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6778BC2F5552B71904A6BC /* Pods_MyVocabularyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +143,141 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1929A6EBC316F9B0A0802EF /* Pods_MyVocabularyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3DDB1020AF21B100BBCA69 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				0D3DDB1120AF21CD00BBCA69 /* PracticeViewController.swift */,
+				0DDC2FD721178F8E002F13D7 /* PracticeViewModel.swift */,
+				0D3DDB1320AF221600BBCA69 /* PracticeTableViewCell.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		0D6CB04820B1935E00BD5E2A /* LessonOption */ = {
+			isa = PBXGroup;
+			children = (
+				0D6CB04920B1937C00BD5E2A /* LessonOptionViewController.swift */,
+				0DDC2FD221174AE1002F13D7 /* LessonOptionViewModel.swift */,
+			);
+			path = LessonOption;
+			sourceTree = "<group>";
+		};
+		0D6CB04B20B1942400BD5E2A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FC22116084E002F13D7 /* LanguageView.swift */,
+				0D6CB04C20B1943B00BD5E2A /* LessonView.swift */,
+				0D278CA2210DF11A00A30B77 /* RoundedButton.swift */,
+				0D278CA4210DF12B00A30B77 /* RectangleButton.swift */,
+				0DDC2FCA2117080D002F13D7 /* SwitchView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0DA34B7B20B0718D002C10B1 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				0DA34B7C20B0719F002C10B1 /* QuizViewController.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		0DA3FAC920AE0FF700F3932A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0DD860FB20A073940030CA10 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0DA3FACA20AE100500F3932A /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				0DD860FF20A077D20030CA10 /* LessonsViewController.swift */,
+				0DDC2FD021172EFF002F13D7 /* LessonsViewModel.swift */,
+				0DD8610320A0A3560030CA10 /* LessonsTableViewCell.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		0DA3FACB20AE105400F3932A /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				0DA3FACC20AE108200F3932A /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		0DAD123D20D5357F00F2715A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD123B20D5121500F2715A /* TestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0DDC2FBD2115FB3D002F13D7 /* LanguagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FC02115FB92002F13D7 /* LanguagesViewController.swift */,
+				0DDC2FCC21172854002F13D7 /* LanguagesViewModel.swift */,
+				0DDC2FC4211609E4002F13D7 /* LanguageTableViewCell.swift */,
+			);
+			path = LanguagesViewController;
+			sourceTree = "<group>";
+		};
+		0DDC2FC621170608002F13D7 /* AddLesson */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FC721170620002F13D7 /* AddLessonViewController.swift */,
+			);
+			path = AddLesson;
+			sourceTree = "<group>";
+		};
+		0DDC2FD4211750DE002F13D7 /* FlowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FD5211750EF002F13D7 /* MainFlowController.swift */,
+			);
+			path = FlowControllers;
+			sourceTree = "<group>";
+		};
+		0DE195A520B16878005C2966 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0DE195A620B1688C005C2966 /* TestViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		0DE195A820B175F0005C2966 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0DE195A920B17607005C2966 /* MutableCollection+Extension.swift */,
+				0D6CB04620B1914600BD5E2A /* UIColor+Extension.swift */,
+				0D6CB04E20B2009C00BD5E2A /* DataProvider.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0DE195AB20B17B09005C2966 /* TestBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DE195AC20B17B47005C2966 /* TestBaseViewController.swift */,
+				0D6455A6210A474200BA35DD /* TestBaseViewModel.swift */,
+				0DE195A520B16878005C2966 /* Test */,
+				0DA34B7B20B0718D002C10B1 /* Quiz */,
+			);
+			path = TestBaseViewController;
+			sourceTree = "<group>";
+		};
 		0DF85F622045CAD90048A2AE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +285,8 @@
 				0DF85F852045CAD90048A2AE /* MyVocabularyTests */,
 				0DF85F902045CAD90048A2AE /* MyVocabularyUITests */,
 				0DF85F6C2045CAD90048A2AE /* Products */,
+				7B856F1C40F2B478A1216F3D /* Pods */,
+				FC7ECDE9BA443F0E9EFFC019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +303,15 @@
 		0DF85F6D2045CAD90048A2AE /* MyVocabulary */ = {
 			isa = PBXGroup;
 			children = (
+				0DDC2FD4211750DE002F13D7 /* FlowControllers */,
+				0DAD123D20D5357F00F2715A /* Managers */,
+				0DA3FAD220AE19FF00F3932A /* MyVocabulary.entitlements */,
+				0DE195A820B175F0005C2966 /* Helper */,
+				0DA3FACB20AE105400F3932A /* Realm */,
+				0DF85FA12045F0E90048A2AE /* Models */,
+				0D6CB04B20B1942400BD5E2A /* CustomViews */,
+				0DF85F9F2045F0C90048A2AE /* ViewControllers */,
 				0DF85F6E2045CAD90048A2AE /* AppDelegate.swift */,
-				0DF85F702045CAD90048A2AE /* ViewController.swift */,
-				0DF85F722045CAD90048A2AE /* Main.storyboard */,
 				0DF85F782045CAD90048A2AE /* Assets.xcassets */,
 				0DF85F7A2045CAD90048A2AE /* LaunchScreen.storyboard */,
 				0DF85F7D2045CAD90048A2AE /* Info.plist */,
@@ -128,6 +338,53 @@
 			path = MyVocabularyUITests;
 			sourceTree = "<group>";
 		};
+		0DF85F9F2045F0C90048A2AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FC621170608002F13D7 /* AddLesson */,
+				0DE195AB20B17B09005C2966 /* TestBaseViewController */,
+				0D3DDB1020AF21B100BBCA69 /* Practice */,
+				0D6CB04820B1935E00BD5E2A /* LessonOption */,
+				0DA3FACA20AE100500F3932A /* Lessons */,
+				0DDC2FBD2115FB3D002F13D7 /* LanguagesViewController */,
+				0DA3FAC920AE0FF700F3932A /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0DF85FA12045F0E90048A2AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2FBB2115FA07002F13D7 /* Language.swift */,
+				0DA3FACE20AE110000F3932A /* Lesson.swift */,
+				0DA3FAD020AE115800F3932A /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B856F1C40F2B478A1216F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8034564AED675BC18D519E /* Pods-MyVocabulary.debug.xcconfig */,
+				11E096CD8A9B67A78890F1EF /* Pods-MyVocabulary.release.xcconfig */,
+				5D9F23E39E31CB4BB1C7253E /* Pods-MyVocabularyTests.debug.xcconfig */,
+				F8DB423AF289820361985A86 /* Pods-MyVocabularyTests.release.xcconfig */,
+				AD9A9A19BD7AA2C0C3299695 /* Pods-MyVocabularyUITests.debug.xcconfig */,
+				DD923A656BF944E9A2314FE3 /* Pods-MyVocabularyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC7ECDE9BA443F0E9EFFC019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA01D3EFF30CC0E6C01DD73B /* Pods_MyVocabulary.framework */,
+				684D0ADB171F1838160D2468 /* Pods_MyVocabularyTests.framework */,
+				95A3893F9D4C269010E3C410 /* Pods_MyVocabularyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF85F962045CAD90048A2AE /* Build configuration list for PBXNativeTarget "MyVocabulary" */;
 			buildPhases = (
+				B48650EA1D6BD644D917A48C /* [CP] Check Pods Manifest.lock */,
 				0DF85F672045CAD90048A2AE /* Sources */,
 				0DF85F682045CAD90048A2AE /* Frameworks */,
 				0DF85F692045CAD90048A2AE /* Resources */,
+				C176FCD80F4BDB3C35868938 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF85F992045CAD90048A2AE /* Build configuration list for PBXNativeTarget "MyVocabularyTests" */;
 			buildPhases = (
+				02450D0EFF075AAF52151F7F /* [CP] Check Pods Manifest.lock */,
 				0DF85F7E2045CAD90048A2AE /* Sources */,
 				0DF85F7F2045CAD90048A2AE /* Frameworks */,
 				0DF85F802045CAD90048A2AE /* Resources */,
@@ -170,6 +430,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF85F9C2045CAD90048A2AE /* Build configuration list for PBXNativeTarget "MyVocabularyUITests" */;
 			buildPhases = (
+				BD354235834D878B34D98173 /* [CP] Check Pods Manifest.lock */,
 				0DF85F892045CAD90048A2AE /* Sources */,
 				0DF85F8A2045CAD90048A2AE /* Frameworks */,
 				0DF85F8B2045CAD90048A2AE /* Resources */,
@@ -197,6 +458,11 @@
 					0DF85F6A2045CAD90048A2AE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					0DF85F812045CAD90048A2AE = {
 						CreatedOnToolsVersion = 9.2;
@@ -237,7 +503,6 @@
 			files = (
 				0DF85F7C2045CAD90048A2AE /* LaunchScreen.storyboard in Resources */,
 				0DF85F792045CAD90048A2AE /* Assets.xcassets in Resources */,
-				0DF85F742045CAD90048A2AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +522,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02450D0EFF075AAF52151F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyVocabularyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48650EA1D6BD644D917A48C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyVocabulary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD354235834D878B34D98173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyVocabularyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C176FCD80F4BDB3C35868938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DF85F672045CAD90048A2AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDC2FCD21172854002F13D7 /* LanguagesViewModel.swift in Sources */,
+				0DA3FACF20AE110000F3932A /* Lesson.swift in Sources */,
+				0D6455A7210A474200BA35DD /* TestBaseViewModel.swift in Sources */,
+				0DA3FAD120AE115800F3932A /* Word.swift in Sources */,
+				0D6CB04D20B1943B00BD5E2A /* LessonView.swift in Sources */,
+				0D278CA3210DF11A00A30B77 /* RoundedButton.swift in Sources */,
+				0D278CA5210DF12B00A30B77 /* RectangleButton.swift in Sources */,
 				0DF85F772045CAD90048A2AE /* MyVocabulary.xcdatamodeld in Sources */,
-				0DF85F712045CAD90048A2AE /* ViewController.swift in Sources */,
+				0D3DDB1220AF21CD00BBCA69 /* PracticeViewController.swift in Sources */,
+				0DA3FACD20AE108200F3932A /* RealmManager.swift in Sources */,
+				0D6CB04F20B2009C00BD5E2A /* DataProvider.swift in Sources */,
+				0DD860FC20A073940030CA10 /* MainViewController.swift in Sources */,
+				0DAD123C20D5121500F2715A /* TestManager.swift in Sources */,
+				0D3DDB1420AF221600BBCA69 /* PracticeTableViewCell.swift in Sources */,
+				0DA34B7D20B0719F002C10B1 /* QuizViewController.swift in Sources */,
+				0DDC2FC821170620002F13D7 /* AddLessonViewController.swift in Sources */,
+				0DDC2FC12115FB92002F13D7 /* LanguagesViewController.swift in Sources */,
+				0DD8610020A077D20030CA10 /* LessonsViewController.swift in Sources */,
+				0D6CB04720B1914600BD5E2A /* UIColor+Extension.swift in Sources */,
+				0DE195AD20B17B47005C2966 /* TestBaseViewController.swift in Sources */,
+				0DDC2FD6211750EF002F13D7 /* MainFlowController.swift in Sources */,
 				0DF85F6F2045CAD90048A2AE /* AppDelegate.swift in Sources */,
+				0DDC2FC5211609E4002F13D7 /* LanguageTableViewCell.swift in Sources */,
+				0DDC2FD321174AE1002F13D7 /* LessonOptionViewModel.swift in Sources */,
+				0DDC2FC32116084E002F13D7 /* LanguageView.swift in Sources */,
+				0DDC2FD821178F8E002F13D7 /* PracticeViewModel.swift in Sources */,
+				0DE195A720B1688C005C2966 /* TestViewController.swift in Sources */,
+				0DE195AA20B17607005C2966 /* MutableCollection+Extension.swift in Sources */,
+				0DDC2FCB2117080D002F13D7 /* SwitchView.swift in Sources */,
+				0D6CB04A20B1937C00BD5E2A /* LessonOptionViewController.swift in Sources */,
+				0DDC2FBC2115FA07002F13D7 /* Language.swift in Sources */,
+				0DDC2FD121172EFF002F13D7 /* LessonsViewModel.swift in Sources */,
+				0DD8610420A0A3560030CA10 /* LessonsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +674,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DF85F722045CAD90048A2AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DF85F732045CAD90048A2AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DF85F7A2045CAD90048A2AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +794,7 @@
 		};
 		0DF85F972045CAD90048A2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8034564AED675BC18D519E /* Pods-MyVocabulary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +810,7 @@
 		};
 		0DF85F982045CAD90048A2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E096CD8A9B67A78890F1EF /* Pods-MyVocabulary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +826,7 @@
 		};
 		0DF85F9A2045CAD90048A2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9F23E39E31CB4BB1C7253E /* Pods-MyVocabularyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +844,7 @@
 		};
 		0DF85F9B2045CAD90048A2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DB423AF289820361985A86 /* Pods-MyVocabularyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +862,7 @@
 		};
 		0DF85F9D2045CAD90048A2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9A9A19BD7AA2C0C3299695 /* Pods-MyVocabularyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +879,7 @@
 		};
 		0DF85F9E2045CAD90048A2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD923A656BF944E9A2314FE3 /* Pods-MyVocabularyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
